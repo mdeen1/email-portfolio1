@@ -1,0 +1,46 @@
+@import url("https://unpkg.com/tailwindcss/dist/tailwind.min.css");
+@import url("https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
+@import url("https://fonts.googleapis.com/css?family=Nunito:400,700");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.3.5/jquery.fancybox.min.css");
+
+body{
+  font-family: 'Nunito', sans-serif;
+}
+
+.zoom { transition: all .2s ease-in-out; }
+.zoom:hover { transform: scale(1.1); }
+
+.owl-carousel .owl-item img {
+  width: 50px;
+  min-width: auto;
+  height: auto;
+  min-height: auto;
+  display:auto;
+}
+
+.owl-theme .owl-dots .owl-dot span {
+  width: 10px;
+  height: 10px;
+  margin: 5px 7px;
+  background: #6CB2EB;
+  display: block;
+  -webkit-backface-visibility: visible;
+  transition: all .2s ease;
+  border-radius: 30px;
+}
+
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+  background: #2779BD;
+}
+
+input:focus {outline:0;}
+textarea:focus {outline:0;}
+select:focus {outline-style:none;}
+option:focus {outline-style:none;}
+span:focus {outline:0;}
+a:focus {outline:0;}
+
+
+form #website{ display:none; }
